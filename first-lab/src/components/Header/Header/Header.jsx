@@ -3,7 +3,7 @@ import './Header.css';
 export const Header = () =>  {
   return (
     <header className="header">
-      <h2>Каталог товарів</h2>
+      <h2>Каталог товарів hello</h2>
     </header>
   );
 }
