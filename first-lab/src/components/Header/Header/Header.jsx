@@ -1,6 +1,6 @@
-import '.Header.css';
-
-function Header() {
+import React from 'react';
+import './Header.css';
+export const Header = () =>  {
   return (
     <header className="header">
       <h2>Каталог товарів</h2>
@@ -8,4 +8,3 @@ function Header() {
   );
 }
 
-export default Header;
